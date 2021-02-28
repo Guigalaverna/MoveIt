@@ -7,8 +7,7 @@
 - [Technologies](#computer-technologies)
 - [Layout](#layout)
 - [Features](#rocket-features)
-- [How to Run](#construction_worker-how-to-run)
-- [Contributing](#tada-contributing)
+- [How to Run](#how-to-run)
 - [License](#closed_book-license)
 
 <p id='computer-technologies'>
@@ -35,6 +34,7 @@
 - [x] Login
 - [x] Listagem de Conquistas (em desenvolvimento)
 
+<p id='how-to-run'>
 ## How to Run
 
 ### Website
