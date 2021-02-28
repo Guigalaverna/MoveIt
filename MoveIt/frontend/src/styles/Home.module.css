@@ -27,3 +27,80 @@
     flex-direction: column;
   }
 }
+
+
+.loginSection {
+  display: grid;
+
+  align-items: center;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 100vw;
+  height: 100vh;
+  background: var(--blue);
+}
+
+.loginSection div:first-child {
+  margin-left: -2.5rem;
+}
+
+.loginSection > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 10rem;
+
+  max-width: 400px;
+}
+
+.loginSection div:last-child strong {
+  font-size: 1.5rem;
+
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+
+  color: var(--white)
+}
+
+.loginSection div:last-child p {
+  font-size: 1.25rem;
+
+  display: flex;
+
+  font-weight: 500;
+
+  color: var(--white);
+
+  margin-bottom: 2.5rem;
+  
+}
+
+.loginSection div:last-child p > img {
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.loginSection .loginInputGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginSection div:last-child div input {
+  padding: 1.5rem;
+  width: 20rem;
+
+  border-radius: 5px 0 0 5px;
+  border: 0;
+}
+
+.loginSection div:last-child div button {
+  width: 5.5rem;
+  height: 5.5rem;
+
+  border-radius: 0 5px 5px 0;
+  border: 0;
+
+  background: var(--blue-dark);
+}
