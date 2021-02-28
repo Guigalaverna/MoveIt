@@ -50,7 +50,7 @@ export default function Countdown() {
         </div>
       </div>
       { hasFinished ? (
-        <button type='button' className={styles.countdownEnded}>Ciclo encerrado <img style={{ marginLeft: '0.5rem'}} src="icons/check_circle.svg" alt="Ciclo encerrado"/> </button>
+        <button disabled type='button' style={{ cursor: 'not-allowed' }} className={styles.countdownEnded}>Ciclo encerrado <img style={{ marginLeft: '0.5rem' }} src="icons/check_circle.svg" alt="Ciclo encerrado"/> </button>
       ) : (
         <>
           { isActive ? (
