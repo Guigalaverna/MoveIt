@@ -4,6 +4,7 @@ import CompletedChallenges from './CompletedChallenges'
 import Countdown from './Countdown'
 import ChallengeBox from './ChallengeBox'
 import LevelUpModal from './LevelUpModal'
+import Sidebar from './Sidebar'
 
 export {
   ExperienceBar,
@@ -11,5 +12,6 @@ export {
   CompletedChallenges,
   Countdown,
   ChallengeBox,
-  LevelUpModal
+  LevelUpModal,
+  Sidebar
 }
