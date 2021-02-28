@@ -32,7 +32,7 @@ export default function CountdownProvider({
   const seconds = time % 60
 
   function startCountdown() {
-    setTime(0.1 * 60)
+    setTime(25 * 60)
     setIsActive(true)
   }
 
