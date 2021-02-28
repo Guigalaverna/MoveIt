@@ -1,10 +1,25 @@
 import { useContext } from 'react'
-import { ChallengesContext } from '../../contexts'
+import { ChallengesContext, CountdownContext } from '../../contexts'
 import styles from './ChallengeBox.module.css'
 
 export default function ChallengeBox() {
+  const { 
+    activeChallenge, 
+    resetChallenge, 
+    completeChallenge
+  } = useContext(ChallengesContext)
 
-  const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext)
+  const { resetCountdown } = useContext(CountdownContext)
+
+  function handleChallengeSucceed() {
+    completeChallenge()
+    resetCountdown()
+  }
+
+  function handleChallengeFailed() {
+    resetChallenge()
+    resetCountdown()
+  }
 
   return (
     <div className={styles.challengeBoxContainer}>
@@ -13,7 +28,10 @@ export default function ChallengeBox() {
         <div className={styles.challengeActive}>
           <header>Ganhe {activeChallenge.amount} xp</header>
           <main>
-            <img src={`icons/${activeChallenge.type}.svg`} alt={activeChallenge.type} />
+            <img 
+              src={`icons/${activeChallenge.type}.svg`} 
+              alt={activeChallenge.type}
+            />
             <strong>Novo desafio</strong>
             <p>{activeChallenge.description}</p>
           </main>
@@ -21,12 +39,12 @@ export default function ChallengeBox() {
             <button
               type='button'
               className={styles.failedButton}
-              onClick={resetChallenge}
+              onClick={handleChallengeFailed}
             >Falhei</button>
             <button
               type='button'
               className={styles.succeededButton}
-              onClick={completeChallenge}
+              onClick={handleChallengeSucceed}
             >Completei</button>
           </footer>
         </div>
