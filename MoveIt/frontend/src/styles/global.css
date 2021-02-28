@@ -4,19 +4,6 @@
   box-sizing: border-box;
 }
 
-#__next {
-  height: 100vh;
-  width: 100vw;
-
-  max-width: 992px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-
-  flex-direction: column;
-}
-
 :root {
   --white:#fff;
   --background: #F2F3F5;
