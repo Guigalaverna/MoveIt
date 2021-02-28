@@ -149,7 +149,7 @@ export default function Home({
                 </svg>
               </div>
               <div>
-                <img src="Logo-full.svg" alt="Move It"/>
+                <img src="logo-full.svg" alt="Move It"/>
                 <strong className={styles.loginTitle}>Bem-vindo</strong>
                 <p>
                   <img src="icons/github.svg" alt="GitHub"/>
