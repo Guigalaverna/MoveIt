@@ -62,6 +62,7 @@ yarn dev
 Criado em 2020 :closed_book: MIT
 
 Criado com muito carinho por [Guilherme Galaverna](https://github.com/Guigalaverna) 🚀.
+
 Esse projeto está sobre o licençiamento [MIT license](https://github.com/Guigalaverna/MoveIt/main/LICENSE).
 
 Dê uma :stat: se esse projeto de te ajudou.
