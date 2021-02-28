@@ -57,7 +57,7 @@ yarn install
 yarn dev
 ```
 
-# :closed_book: License
+## License
 
 Criado em 2020 :closed_book: MIT
 
