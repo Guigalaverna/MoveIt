@@ -65,4 +65,4 @@ Criado com muito carinho por [Guilherme Galaverna](https://github.com/Guigalaver
 
 Esse projeto está sobre o licençiamento [MIT license](https://github.com/Guigalaverna/MoveIt/main/LICENSE).
 
-Dê uma :stat: se esse projeto de te ajudou.
+Dê uma :star: se esse projeto de te ajudou.
