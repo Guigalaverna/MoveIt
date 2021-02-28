@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 3.5rem 0;
+  padding: 1rem;
+
+  border-bottom: 1px solid #D7D8DA;
+
+  font-weight: 500;
+}
+
+.container span:first-child {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.container span:last-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
