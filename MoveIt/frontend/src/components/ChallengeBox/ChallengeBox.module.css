@@ -118,3 +118,10 @@
 
   filter: brightness(0.9)
 }
+
+@media(max-width: 800px) {
+  .challengeBoxContainer {
+    min-height: 5rem;
+    margin-bottom: 10rem;
+  }
+}

@@ -43,8 +43,6 @@ export default function CountdownProvider({
     setTime(0.1 * 60)
   }
   
-
-  
   useEffect(() => {
     if (isActive && time > 0) {
       countdownTimeout = setTimeout(() => {
